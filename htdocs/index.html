@@ -65,7 +65,7 @@
                 text-transform: lowercase;
                 text-align: center;
             }
-            h2 + p {
+            h2:last-of-type + p {
                 font-size: 1.6em;
                 text-align: center;
             }
@@ -85,6 +85,10 @@
             .brand {
                 font-family: "stymie-dc-d", serif;
             }
+            i.brand {
+                /*color: rgb(220,53,24);*/
+                font-style: normal;
+            }
             h1.brand {
                 font-family: "cronos-pro", serif;
             }
@@ -96,7 +100,7 @@
                 font-size: 1.2em;
                 text-align: center;
             }
-            @media all and (min-width: 320px) and (max-width:765px){
+            @media all and (min-width: 320px) and (max-width:1024px){
                 body {
 
                 }
@@ -104,7 +108,7 @@
                     font-size: 1.8em;
                 }
                 h1 + p {
-                    font-size: 1em;
+                    font-size: 1.4em;
                 }
                 .header img {
                     max-width: 100%;
@@ -114,6 +118,39 @@
                     font-size: 1.4em;
                 }
                 h2 + p {
+                    font-size: 1em;
+                }
+                ul {
+                    padding: 0;
+                }
+                li {
+                    font-size: 1em;
+                }
+                .footer p {
+                    font-size: 0.8em;
+                }
+            }
+            @media all and (max-width: 480px){
+                body {
+
+                }
+                h1 {
+                    font-size: 1.8em;
+                }
+                h1 + p {
+                    font-size: 1.2em;
+                }
+                .header img {
+                    max-width: 100%;
+                    width: 300px
+                }
+                h2 {
+                    font-size: 1.4em;
+                }
+                h2 + p {
+                    font-size: 1em;
+                }
+                p {
                     font-size: 1em;
                 }
                 ul {
@@ -138,12 +175,21 @@
             <div class="header animated rotateInUpLeft"><img src="./img/holding-logo.png" alt="" class="logo"/></div>
             <div class="content animated zoomIn">
                 <h1 class="brand">Web design and development in the Isle of Man</h1>
-                <p>Web design. Web development. Wordpress development. Website hosting. Domain Registration</p>
-   <!--              <p>Integer nec tempus velit. Donec finibus, diam at varius suscipit, nisi nunc porttitor neque, sit amet dapibus arcu quam ut metus. Curabitur tempus porta elit, quis finibus dui laoreet ac. Donec efficitur neque nec dui sagittis consectetur. Aliquam ut enim suscipit, pharetra urna vel, blandit ante. In ac nisl nisi. Integer id nulla rutrum, iaculis nisi id, finibus orci. Proin non aliquet quam. Curabitur eleifend metus a sagittis sollicitudin. Vivamus hendrerit, ex vitae iaculis consectetur, lacus erat porta libero, ac blandit lorem dolor eget odio. Pellentesque in nulla ultricies, maximus urna et, viverra urna.</p>
-                <h2>Contact me</h2>
-                <p>Get in touch with me for a no obligation chat about your requirements.</p> -->
+                <p>Web design. Web development. Wordpress development. Website hosting. Domain Registration.</p>
+
+                <p><i class="brand">CrafteD</i> is a Manx based one man web development and design studio servicing small &amp; medium businesses and sole traders in the Isle of Man and further afield.</p>
+
+                <p>Originally from Somerset in the UK, Dave Sayer, the man behind <i class="brand">CrafteD</i>, is a well seasoned web professional with over <strong>15 years experience</strong> working within the web industry (both as a freelancer and agency employee). Dave came to the Isle of Man in May 2015 and settled in the wonderful city of Peel. Working out of his humble home studio (I converted the garage), Daves current clients are located both on the Isle of Man and as far afield as Bristol and London in the UK but he would <strong>love</strong> to help more Manx based businesses realise their true potential online.</p>
+
+                <p>Specialising in <strong>WordPress development</strong>, <strong>responsive design</strong> and <strong>web standards</strong>, Dave prides himself on his attention to detail and the professional quality of his work. With a multitude of projects under his belt he is perfectly placed to turn your great ideas into a successful online venture that can flex and grow inline with your business strategy - whether it be maintenance for an existing concern or a ground up design &amp; build service for a completely new venture, a wedding, christening or charity event, Dave has the skills and experience to help.</p>
+
+                <h2>Need a domain registered or hosting for your website?</h2>
+                <p>Dave has been looking after the hosting and domain name registration needs of his clients for over ten years. Now a domain reseller, Dave is able to offer great prices for both hosting and domain registrations, often beating much larger competitors on price. With over 300 domain suffixes (including .im) to choose from, we are sure to find the right domain name for you. Dave can even get you up and running with your own email address.</p>
+
+                <h2>Why not contact <i class="brand">CrafteD</i>?</h2>
+                <p>Get in touch with Dave for a no obligation chat about your requirements.</p>
                 <ul>
-                    <li>e: <a href="mailto:hello@crafted.im">hello@crafted.im</a> | t: 0151 528 8411 (UK) | m:&nbsp;07624231521 (IoM)</li>
+                    <li>e: <a href="mailto:hello@crafted.im">hello@crafted.im</a> | t: 0151 528 8411 (UK) | m:&nbsp;07624 231521 (IoM)</li>
                 </ul>
             </div>
             <div class="footer animated zoomIn">
